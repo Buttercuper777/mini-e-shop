@@ -1,0 +1,27 @@
+$primary-color: #3498db; // Голубой
+
+// Фоновые цвета
+$background-color: #ecf0f1;
+$secondary-background-color: rgb(27, 27, 27);
+
+// Цвета текста
+$text-color: #333333;
+$secondary-text-color: #777777;
+
+// Цвета кнопок
+$button-primary-background: $primary-color;
+$button-primary-text: #ffffff;
+
+$button-secondary-background: #2ecc71;
+$button-secondary-text: #ffffff;
+
+// Цвета для подсветки
+$highlight-success: #27ae60;
+$highlight-warning: #f39c12;
+$highlight-error: #c0392b;
+
+// Для границ
+$border-color: #bdc3c7;
+
+// размеры
+$header_height: 130px;

@@ -1,0 +1,56 @@
+@import "../../variables.scss";
+
+.cartSideBar {
+  color: $button-primary-text;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  background: $secondary-background-color;
+  border: solid 1px $border-color;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  .productsContainer {
+    padding-bottom: 15px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > * {
+      margin-top: 10px;
+    }
+
+    span {
+      font-size: 1.4rem;
+      width: fit-content;
+      align-self: center;
+      padding: 10px 25px;
+      border: solid 1px $border-color;
+      border-radius: 15px;
+
+      margin-top: calc(100% + 50px);
+    }
+  }
+
+  span {
+    font-size: 1.2rem;
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  .sideBarBtns > * {
+    margin-bottom: 10px;
+  }
+}

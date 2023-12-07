@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+.btn{
+  cursor: pointer;
+  height: 35px;
+  background: $border-color;
+  color: $text-color;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+
+  &.active{
+    color: $button-primary-text;
+    background: $button-primary-background;
+  }
+
+}
